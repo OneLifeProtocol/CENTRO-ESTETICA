@@ -18,11 +18,11 @@ export const metadata = {
   title: "Centro Estetico [Nome] - Bellezza e Benessere",
   description:
     "Centro estetico professionale a [Città]. Trattamenti viso, ceretta, massaggi e molto altro per il tuo benessere.",
-  metadataBase: new URL("https://[tuo-sito].it"),
+  metadataBase: new URL("https://centroesteticabella.it"),
   alternates: {
     canonical: "/",
   },
-  openGraph: {
+    openGraph: {
     title: "Centro Estetico [Nome] - Bellezza e Benessere",
     description: "Centro estetico professionale a [Città]. Trattamenti viso, ceretta, massaggi e molto altro.",
     images: "/images/maria-estetista.png",
@@ -44,8 +44,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "BeautySalon",
               "name": "Centro Estetico [Nome]",
-              "image": "https://[tuo-sito].it/images/maria-estetista.png",
-              "url": "https://[tuo-sito].it",
+              "image": "https://centroesteticabella.it/images/maria-estetista.png",
+              "url": "https://centroesteticabella.it",
               "telephone": "+39 [Numero Telefono]",
               "address": {
                 "@type": "PostalAddress",
@@ -57,7 +57,7 @@ export default function RootLayout({
               "openingHoursSpecification": [
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
                   "opens": "09:00",
                   "closes": "19:00"
                 }
