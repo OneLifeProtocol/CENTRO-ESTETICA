@@ -43,14 +43,13 @@ export default function HeroSection({
           playsInline
           className="object-cover w-full h-full"
         >
-          <source src="/luxury-spa-serenity.mp4" type="video/mp4" />
-          <source src="/spa-treatment.mp4" type="video/mp4" />
+          <source src="/0518.mp4" type="video/mp4" />
         </video>
       </motion.div>
 
-      {/* Overlay gradient */}
+      {/* Overlay semitrasparente */}
       <div
-        className="absolute inset-0 bg-gradient-to-b from-pink-900/40 via-pink-600/20 to-pink-50 z-10"
+        className="absolute inset-0 bg-pink-950/50 z-10"
       />
 
       {/* Contenuto Hero */}

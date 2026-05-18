@@ -85,8 +85,8 @@ export default function GallerySection() {
             },
             {
               title: "Trattamento Corpo Rassodante",
-              before: "/placeholder.svg?key=t1t9j",
-              after: "/placeholder.svg?key=slyzb",
+              before: "/prima-2.png",
+              after: "/dopo-2.png",
             },
           ].map((item, index) => (
             <motion.div key={index} variants={cardAnimation} whileHover="hover" className="space-y-4">
